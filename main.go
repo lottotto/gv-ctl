@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "gv-ctl/cmd"
+import "github.com/lottotto/gv-ctl/cmd"
 
 func main() {
 	cmd.Execute()
