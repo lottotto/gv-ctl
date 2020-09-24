@@ -1,1 +1,3 @@
 dist/
+examples/
+.DS_Store

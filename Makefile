@@ -5,4 +5,6 @@ build:
 	echo build Success!
 
 docker:
-	docker build -t gvctl-alpine:0.1.0 -f docker/Dockerfile .
+	docker build -t gvctl-alpine:0.2.2 -f docker/Dockerfile .
+	docker tag gvctl-alpine:0.2.2 danish9966/gvctl-alpine:0.2.1
+	docker push danish9966/gvctl-alpine:0.2.1
