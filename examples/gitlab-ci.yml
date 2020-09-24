@@ -1,0 +1,7 @@
+include: 
+  - project: 'development/common/libs/pipeline-template'
+    ref: master
+    file: 'templates/.gitlab-ci.set-group-variables-template.yml'
+
+stages: 
+  - set-variables

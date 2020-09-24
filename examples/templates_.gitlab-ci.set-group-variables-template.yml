@@ -1,0 +1,6 @@
+set-group-variables:
+  stage: set-variables
+  image: docker-3rd-party.bs01.aslead-root.wwws.nri.co.jp/danish9966/gvctl-alpine:0.2.0
+  script: 
+    - gvctl setup -f group-variables.yml
+  retry: 2
