@@ -1,3 +1,4 @@
 dist/
 examples/
 .DS_Store
+.fossa.yml
