@@ -1,4 +1,6 @@
 # gvctl
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flottotto%2Fgv-ctl.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flottotto%2Fgv-ctl?ref=badge_shield)
+
 
 ### usage
 ```
@@ -17,3 +19,6 @@ gvctl setup -f sample.yaml
 - "key": "FUGA"
   "value": "fuga"
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flottotto%2Fgv-ctl.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flottotto%2Fgv-ctl?ref=badge_large)
